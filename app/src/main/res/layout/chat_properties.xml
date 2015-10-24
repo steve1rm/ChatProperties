@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingStart="4dp"
+    android:paddingLeft="4dp"
+    android:paddingEnd="4dp"
+    android:paddingRight="4dp"
+    android:background="@color/chatPropertyBackground">
+
+    <ImageView
+        android:id="@+id/ivAttach"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_attach_file_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/ivEmoji"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_insert_emoticon_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/ivCrop"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_crop_black_24dp"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/ivPhoneCall"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/ivVideoCall"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_videocam_black_24dp"/>
+
+</LinearLayout>
